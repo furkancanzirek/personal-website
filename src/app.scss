@@ -1,0 +1,18 @@
+.App {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+ 
+}
+.container {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  scroll-snap-type: y mandatory;
+  
+
+}

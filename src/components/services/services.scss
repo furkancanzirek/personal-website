@@ -1,0 +1,130 @@
+.services {
+  @import "/global.scss";
+  height: calc(100vh - 90px);
+  background-color: $color2;
+  width: 100%;
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .left-wrapper {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+      flex: 1;
+      .title {
+        position: relative;
+        span {
+          position: absolute;
+          color: #5464cf;
+          letter-spacing: 0.5px;
+          transform: rotate(-30deg);
+          font-size: 16px;
+          top: -30%;
+          left: -6%;
+        }
+        width: 400px;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 1.2em;
+      }
+      .description-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        position: relative;
+        .minus {
+          position: absolute;
+          top: -18%;
+          left: -15%;
+        }
+        .description {
+          color: #464549;
+          margin-left: 10px;
+          width: 400px;
+        }
+      }
+    }
+    .right-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      font-weight: 500;
+      margin-top: 40px;
+      .service1 {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 180px;
+        flex: 1;
+        .line {
+          height: 2px;
+          width: 100%;
+          background-color: black;
+          margin-top: 30px;
+        }
+        .content {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          height: 100%;
+          margin-top: 10px;
+
+          .service-number {
+            margin-top: 10px;
+            .service-number-span {
+              font-size: 20px;
+            }
+          }
+
+          .service-title {
+            flex: 1;
+            margin-left: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            .service-title-span {
+              font-size: 38px;
+            }
+            .service-explore{
+              font-size: 13px;
+              width: 50px;
+              cursor:pointer;
+            }
+          }
+
+          .service-button {
+            width: 40px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            button {
+              background-color: $color9;
+              width: 40px;
+              height: 40px;
+              border: none;
+              border-radius: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor:pointer;
+              .arrow-icon {
+                transform: rotate(45deg);
+                width: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
