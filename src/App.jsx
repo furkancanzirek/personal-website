@@ -16,10 +16,6 @@ const App = () => {
       <div className="container">
 
         <Intro></Intro>
-        <Services ></Services>
-        <Services data-aos="fade"></Services>
-        <Services data-aos="fade"></Services>
-        <Services data-aos="fade"></Services>
         <Services data-aos="fade"></Services>
         {/* <Skills></Skills>
         <Portfolio></Portfolio>

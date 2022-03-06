@@ -71,15 +71,21 @@ function Intro() {
           </div>
           <div className="social-media">
             <span>Check Out My</span>
-            <div className="icon github">
-              <i class="fa-brands fa-github"></i>
-            </div>
+            <a href="https://github.com/furkancanzirek" target="_blank">
+              <div className="icon github">
+                <i class="fa-brands fa-github"></i>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/frkncnzirek/" target="_blank">
             <div className="icon linkedin">
               <i class="fa-brands fa-linkedin"></i>
             </div>
+            </a>
+            <a href="mailto:furkancanzirek@gmail.com">
             <div className="icon mail">
               <i class="fa-solid fa-envelope"></i>
             </div>
+            </a>
           </div>
         </div>
         <div className="right-wrapper">
@@ -95,7 +101,6 @@ function Intro() {
                 className="h-5 w-5 about-icon"
                 viewBox="0 0 20 20"
                 fill="white"
-
               >
                 <path
                   fillRule="evenodd"

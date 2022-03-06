@@ -10,12 +10,12 @@ function Topbar() {
           </div>
           <div className="logo-text">Furkan Can Zirek</div>
         </div>
-        <div className="menu">
+        {/* <div className="menu">
           <button>About</button>
           <button>Service</button>
           <button>Portfolio</button>
           <button>Testimonial</button>
-        </div>
+        </div> */}
         <div className="search">
           <input placeholder="Search" name="" id="" />
           <div className="search-icon">
